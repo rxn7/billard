@@ -1,10 +1,11 @@
 #pragma once
 
+#include <cstdint>
 #include <SFML/Audio.hpp>
 #include <SFML/Audio/SoundBuffer.hpp>
 
 namespace Audio {
-	enum AudioType : uint8_t {
+	enum AudioType : std::uint8_t {
 		BALL_WITH_BALL_COLLISION,
 		BALL_WITH_TABLE_COLLISION,
 		CUE_HIT,
